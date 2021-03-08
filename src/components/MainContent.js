@@ -8,10 +8,10 @@ function MainContent(){
     return (
         <div className="todoList" >
             <h1>To do list of: {name}</h1>
-            <TodoItem />
-            <TodoItem />
-            <TodoItem />
-            <TodoItem /> 
+            <TodoItem item="Buy fruits" />
+            <TodoItem item="Water the plants"/>
+            <TodoItem item="Call my office"/>
+            <TodoItem item="Send Ana's gift"/> 
         </div>
     )
 }
