@@ -3,7 +3,10 @@ import React from "react"
 function Footer(){
     return (
         <footer className="classFooter" >
-            <h1>my footer</h1>
+            <div>
+                <h2>"To-do list: to-do list!"</h2>
+                <p>Ljupka Cvetanova</p>
+            </div>
         </footer>
     )
 }
