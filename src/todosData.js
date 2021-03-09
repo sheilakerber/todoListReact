@@ -17,12 +17,12 @@ const todosData = [
     {
         id: 4, 
         text: "Send Ana's gift",
-        completed: true
+        completed: false
     },
     {
         id: 5, 
         text: "Plann weekend trip",
-        completed: true
+        completed: false
     }
 ]
 

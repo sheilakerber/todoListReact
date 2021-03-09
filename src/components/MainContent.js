@@ -4,7 +4,7 @@ import todosData from "../todosData"
 
 function MainContent(){
 
-    const todosComponent = todosData.map(item => <TodoItem key={item.id} task={item.text} />)
+    const todosComponent = todosData.map(item => <TodoItem key={item.id} task={item} />)
     return (
         <div className="todoList" >
              {todosComponent}
