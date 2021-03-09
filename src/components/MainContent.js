@@ -4,7 +4,7 @@ import TodoItem from "./TodoItem"
 
 function MainContent(){
 
-    const name = "Sheila"
+    const todosComponent = todosData.map(item => <TodoItem key={item.id} task={item.text} />)
     return (
         <div className="todoList" >
             <h1>To do list of: {name}</h1>
