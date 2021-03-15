@@ -8,6 +8,9 @@ class MainContent extends React.Component {
         this.state = {
             todos: todosData
         }
+
+    handleChange(id){
+        console.log("Task status changed!", id)
     }
 
     render(){
