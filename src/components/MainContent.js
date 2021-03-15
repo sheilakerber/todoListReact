@@ -17,6 +17,7 @@ class MainContent extends React.Component {
 
     render(){
         const todoItems = this.state.todos.map(item => <TodoItem key={item.id} task={item} />)
+        const todoItems = this.state.todos.map(item => <TodoItem key={item.id} task={item} handleChange={this.handleChange}/>)
 
         return (
             <div className="todoList" >
