@@ -2,6 +2,11 @@ import React from "react"
 
 
 function TodoItem(props){
+    const completedStyle = {
+        fontStyle: "italic",
+        color: "#cdcdcd",
+        textDecoration: "line-through"
+    }
     return (
         <div className="todoItem">
             <input 
